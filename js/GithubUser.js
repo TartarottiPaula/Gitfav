@@ -1,6 +1,6 @@
 export class GithubUser {
   static async search(username) {
-      const endpoint = `http://api.github.com/users/${username}`
+      const endpoint = `https://api.github.com/users/${username}`
 
       const data = await fetch(endpoint)
 
